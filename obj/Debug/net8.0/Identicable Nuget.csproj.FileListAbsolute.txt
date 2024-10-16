@@ -1,0 +1,11 @@
+C:\Users\juanf\source\repos\Identicable Nuget\bin\Debug\net8.0\Identicable Nuget.deps.json
+C:\Users\juanf\source\repos\Identicable Nuget\bin\Debug\net8.0\Identicable Nuget.dll
+C:\Users\juanf\source\repos\Identicable Nuget\bin\Debug\net8.0\Identicable Nuget.pdb
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\Identicable Nuget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\Identicable Nuget.AssemblyInfoInputs.cache
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\Identicable Nuget.AssemblyInfo.cs
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\Identicable Nuget.csproj.CoreCompileInputs.cache
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\Identicable Nuget.dll
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\refint\Identicable Nuget.dll
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\Identicable Nuget.pdb
+C:\Users\juanf\source\repos\Identicable Nuget\obj\Debug\net8.0\ref\Identicable Nuget.dll
