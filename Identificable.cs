@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Identicable_Nuget.Interfaces;
 
 namespace Identicable_Nuget
 {
@@ -10,10 +6,10 @@ namespace Identicable_Nuget
     //  Esta clase se me ha ocurrido ya que, a raíz de pensar si c# tenía
     //  una interfaz que nos permita identidicar de manera única un objeto
     //  sin tener que declarar una propiedad que identifique a cada objeto en una lista.
-    
+
     //  Podriamos hacer que la clase alvergara generícos para permitirle al usuario que
     //  pueda trabajar que distintas formas de identificación:
-    
+
     //  INT => Con números enteros
     //  STRING => Con nif o id personalizados
     public class Identificable<T> : Iidentificable<T>
@@ -26,7 +22,6 @@ namespace Identicable_Nuget
         {
             get
             {
-                _id = default(T);
                 var defaultValue = default(T);
 
                 if (EqualityComparer<T>.Default.Equals(_id, defaultValue))
@@ -40,8 +35,13 @@ namespace Identicable_Nuget
             //  de insertar un id de una base de datos
             //  en el módelo
 
-            //  private set;
+            set
+            {
+                _id = value;
+            }
         }
+
+        public Identificable() { }
 
         private T GenerateId()
         {
@@ -74,7 +74,8 @@ namespace Identicable_Nuget
         //  ID TIPO INT
         private int GenerateIdInt()
         {
-            return _iterador++;
+            _iterador += 1;
+            return _iterador;
         }
 
 
